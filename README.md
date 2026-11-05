@@ -9,9 +9,20 @@ Smart training gloves analyze how exercises are performed during strength traini
 - **Kevin Silajdzic:** smartphone app (this repository)
 - **Daniel Jones:** hardware, glove firmware and AI model
 
+## Screenshots
+<p>
+  <img src="screenshots/StartupScreen.png" width="160" alt="Start screen">
+  <img src="screenshots/Homescreen.png" width="160" alt="Menu with exercise list">
+  <img src="screenshots/ActiveWorkoutScreen.png" width="160" alt="Live training with repetition counter and AI feedback">
+  <img src="screenshots/WorkoutSummary.png" width="160" alt="Workout summary">
+  <img src="screenshots/WorkoutHistory.png" width="160" alt="Workout history">
+</p>
+
+From left to right: start screen, menu, live training, workout summary, workout history.
+
 ## App features
-- Select exercises and set weight, number of sets and repetitions per set
-- Live training with AI feedback and automatic repetition counting  
+- Select exercises and set sets, repetitions and weight
+- Live training with automatic repetition counting and AI feedback
 - Bluetooth Low Energy connection with automatic reconnect
 - Per-set summary and saved training history
 
