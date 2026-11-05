@@ -1,0 +1,32 @@
+name: former_test
+description: Flutter BLE JSON Receiver for Nicla Sense ME
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.2.0
+  permission_handler: ^11.0.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Logo.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "Logo_Icon.png"
+  adaptive_icon_background: "#0F4C81"
+  adaptive_icon_foreground: "Logo_Icon.png"
